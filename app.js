@@ -16,17 +16,16 @@ app.listen(process.env.PORT || 3001, () => {
   requestData.getExchangeData();
 });
 
-/*
-//  Every 25 minutes, Dyno is awakened
+//  Ogni 25 minuti invia una richiesta al server
 setInterval(function () {
   wakeUp();
 }, 1500000);
 
-//  function to wake up server
+//  Funzione per 'svegliare' il server
 function wakeUp() {
   https.get('https://incrocio.herokuapp.com/', (res) => {
     console.log('WAKE UP');
   });
-}*/
+}
 
 home.renderHome(app);
