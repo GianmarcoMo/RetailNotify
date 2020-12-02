@@ -1,4 +1,4 @@
-# Incrocio Retail
+# Retail Notify
 
 E' una web app che permette di ricevere in tempo reale l'incrocio che avviene nel mercato, tra i Retail traders che hanno operazione BUY e Retail traders che hanno operazioni SELL.
 
