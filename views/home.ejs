@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/style/home.css" />
+    <link
+      rel="icon"
+      href="/public/media/icon.gif"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/e81c3e6807.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT BODY -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT TITOLO -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Incrocio Retail</title>
+  </head>
+  <body>
+    <!-- -------------------- -->
+    <!-- TITOLO E SOTTOTITOLO -->
+    <div class="title">
+      <h1>RetailNotify</h1>
+    </div>
+    <div class="sottoTitolo">
+      <h3>
+        Inserisci la tua email e riceverai i segnali degli incroci:
+      </h3>
+    </div>
+
+    <!-- ---------------- -->
+    <!-- ELENCO DEI CAMBI -->
+    <div class="elencoCambi">
+      <button class="btnCambio">
+        &#127470;&#127481; EUR USD &#127482;&#127480;
+      </button>
+      <div class="numeroContratti">
+        <p class="numeroSinistra">
+          <i class="fas fa-long-arrow-alt-up"></i> <%= longEU %>
+        </p>
+        <p class="">
+          <i class="fas fa-long-arrow-alt-down"></i> <%= shortEU %>
+        </p>
+      </div>
+      <button class="btnCambio">
+        &#127482;&#127480; USD CAD &#127464;&#127462;
+      </button>
+      <div class="numeroContratti">
+        <p class="numeroSinistra">
+          <i class="fas fa-long-arrow-alt-up"></i> <%= longUC %>
+        </p>
+        <p class="">
+          <i class="fas fa-long-arrow-alt-down"></i> <%= shortUC %>
+        </p>
+      </div>
+      <button class="btnCambio">
+        &#127470;&#127481; EUR JPY &#127471;&#127477;
+      </button>
+      <div class="numeroContratti">
+        <p class="numeroSinistra">
+          <i class="fas fa-long-arrow-alt-up"></i> <%= longEJ %>
+        </p>
+        <p class="">
+          <i class="fas fa-long-arrow-alt-down"></i> <%= shortEJ %>
+        </p>
+      </div>
+      <button class="btnCambio">
+        &#127482;&#127480; USD CHF &#127464;&#127469;
+      </button>
+      <div class="numeroContratti">
+        <p class="numeroSinistra">
+          <i class="fas fa-long-arrow-alt-up"></i> <%= longUCH %>
+        </p>
+        <p class="">
+          <i class="fas fa-long-arrow-alt-down"></i> <%= shortUCH %>
+        </p>
+      </div>
+    </div>
+
+    <!-- --------------- -->
+    <!-- INPUT PER EMAIL -->
+    <div class="inputEmail">
+      <form action="/subscribe" method="post">
+        <input
+          type="email"
+          name="emailUser"
+          id="inputEmail"
+          placeholder="Iscriviti ai segnali..."
+        />
+        <a href="/conferma"
+          ><button type="submit" id="btnInvio">
+            <i class="far fa-envelope-open"></i></button
+        ></a>
+      </form>
+    </div>
+
+    <footer>
+      <p>
+        Made with <i style="color: #cf1b1b;">&#9829;</i> by
+        <a href="https://github.com/GianmarcoMo"> Gianmarco Moresi</a>
+      </p>
+    </footer>
+  </body>
+</html>

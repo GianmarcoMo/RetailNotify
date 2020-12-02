@@ -1,0 +1,150 @@
+body {
+  background-color: #222831;
+  color: #eeeeee;
+  padding: 1%;
+  font-family: 'Poppins', sans-serif;
+}
+.title {
+  text-align: center;
+  margin-bottom: 3%;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 25px;
+}
+.sottoTitolo {
+  text-align: center;
+}
+.elencoCambi {
+  display: inline-grid;
+  margin-left: 43.5%;
+  margin-bottom: 2%;
+}
+.btnCambio {
+  margin-bottom: 5%;
+  width: 240px;
+  height: 45px;
+  background-color: #fff0;
+  border: 2px solid #fbd46d;
+  color: #eee;
+  font-size: 30px;
+  border-radius: 12px;
+}
+.btnCambio:hover {
+  background-color: #fbd46d;
+  color: black;
+}
+.numeroContratti {
+  margin-top: -22px;
+  display: inline-flex;
+  margin-left: 17%;
+}
+.numeroSinistra {
+  padding-right: 20%;
+}
+.fa-long-arrow-alt-up {
+  font-size: 22px;
+  color: #21bf73;
+}
+.fa-long-arrow-alt-down {
+  font-size: 22px;
+  color: #fd5e53;
+}
+.inputEmail {
+  margin-left: 39%;
+  margin-bottom: 2%;
+}
+#inputEmail {
+  width: 33%;
+  margin-right: -5%;
+  height: 44px;
+  background-color: #fbd46d;
+  color: black;
+  border: 0px;
+  padding-left: 1%;
+  border-radius: 8px;
+  font-size: 17px;
+  padding-right: 4%;
+}
+.fa-envelope-open {
+  font-size: 20px;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+}
+#btnInvio {
+  background-color: #fbd46d;
+  border: 0px;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 5%;
+}
+a {
+  color: #fbd46d;
+  text-decoration: none;
+}
+
+/*  CSS PER MOBILE  */
+@media (max-width: 767px) {
+  .elencoCambi {
+    margin-left: 17%;
+  }
+  .numeroContratti {
+    font-size: 14px;
+    margin-left: 17%;
+  }
+  .inputEmail {
+    margin-left: 3%;
+    margin-bottom: 10%;
+    margin-top: 3%;
+  }
+  #inputEmail {
+    width: 76%;
+    margin-right: -14%;
+    height: 35px;
+    padding-left: 5%;
+    padding-right: 15%;
+    font-size: 14px;
+  }
+  #btnInvio {
+    background-color: #fbd46d;
+    border: 0px;
+  }
+}
+
+/*  CSS F0R TABLET LANDSCAPE  */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .elencoCambi {
+    margin-left: 38.5%;
+  }
+  .inputEmail {
+    margin-left: 35%;
+  }
+  #inputEmail {
+    margin-right: -6%;
+    width: 40%;
+    padding-right: 6%;
+  }
+  #btnInvio {
+    width: 0px;
+  }
+}
+
+/*  CSS FOR TABLET NO LANDSPACE */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .elencoCambi {
+    margin-left: 33.5%;
+  }
+  .inputEmail {
+    margin-left: 28%;
+  }
+  #inputEmail {
+    width: 50%;
+    margin-right: -7%;
+    padding-right: 7%;
+  }
+  #btnInvio {
+    width: 0px;
+  }
+}

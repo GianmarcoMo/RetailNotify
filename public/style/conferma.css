@@ -1,0 +1,36 @@
+body {
+  background-color: #21bf73;
+  color: #eeeeee;
+  padding: 1%;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  color: #f9fcfb;
+  margin-bottom: -1.7%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.sottoTitolo {
+  color: #f9fcfb;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+}
+
+a {
+  color: #ff5722;
+  text-decoration: none;
+}
+
+/*  CSS PER MOBILE  */
+@media only screen and (max-width: 768px) {
+  .title {
+    margin-bottom: -9%;
+  }
+}
