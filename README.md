@@ -12,7 +12,7 @@ Questa web app permettera' di aggiornarvi sulle posizioni dei retail traders, e 
 
 *Grafico e dati di [Myfxbook](https://www.myfxbook.com/community/outlook/EURUSD)*
 
-*Nonostante la maggior parte delle persone erano SHORT sull'asset **EURUSD**, il mercato continuava a salire.*
+*Nonostante la maggior parte delle persone sono SHORT sull'asset **EURUSD**, il mercato continua a salire.*
 
 *Sull'immagine viene segnalato **l'incrocio** dei retail traders*
 
